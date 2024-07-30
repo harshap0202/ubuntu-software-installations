@@ -15,11 +15,29 @@ sudo apt install ansible -y
 
 ## Inventory File Syntax : 
 
-```bash
-# inventory.ini
-    └─> $ target1  ansible_host=192.168.232  ansible_connection=ssh   ansible_user=harsh  ansible_ssh_pass=temp
-#         <alias>  <-- host ip address -->   <-- connection type -->  <--remote user -->  <-- login password -->
+**inventory.ini** - basic syntax
+```ini
+target-01  ansible_host=xxx.xx.xx.xx  ansible_connection=ssh  ansible_user=harsh   ansible_ssh_pass=temp
+# <alias>  <----host ip address---->  <--connection type--->  <---remote user--->  <--login password--->
+```
 
-# check ansible connection 
-    └─> $ ansible -i inventory target1 -m ping 
+check ansible connection 
+```bash
+ansible -i inventory target1 -m ping 
+```
+
+# Commands to Uninstall Ansible on Ubuntu
+
+```bash
+# confirm installed
+ansible --version
+
+# uninstall ansible
+sudo apt-get remove --purge ansible
+
+# Remove Dependencies and Unused Packages
+sudo apt-get autoremove
+
+# confirm uninstalled
+ansible --version
 ```
