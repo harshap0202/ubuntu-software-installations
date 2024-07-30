@@ -3,8 +3,8 @@
 This git repo consists a step by step process for installation of various softwares in ubuntu
 
 ## Index: 
-- [Ansible Setup](ansible.md)
-- [Docker Setup](docker.md)
-- [Jenkins Configuration](jenkins.md)
+- [Ansible](ansible.md)
+- [Docker](docker.md)
+- [Jenkins](jenkins.md)
 - [SSH Setup](ssh-setup.md)
-- [VirtualBox Configuration](virtualbox.md)
+- [VirtualBox](virtualbox.md)
