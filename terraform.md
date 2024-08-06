@@ -1,29 +1,12 @@
 # Commands to install Terraform on Ubuntu
 
 ```bash
-wget https://releases.hashicorp.com/terraform/1.8.0/terraform_1.8.0_linux_amd64.zip
-# change the version to whichever you wish
-
-unzip terraform_1.8.0_linux_amd64.zip
- 
-sudo mv terraform /usr/local/bin
-```
-
-
-
-Sure! Here’s a similar set of commands for managing Terraform on Ubuntu.
-
----
-
-# Commands to Install Terraform on Ubuntu
-
-```bash
 # Install the required dependencies
 sudo apt update
 sudo apt install -y wget unzip
 
 # Download Terraform binary
-wget https://releases.hashicorp.com/terraform/1.5.6/terraform_1.5.6_linux_amd64.zip
+wget https://releases.hashicorp.com/terraform/1.8.0/terraform_1.8.0_linux_amd64.zip
 
 # Unzip the downloaded file
 unzip terraform_1.5.6_linux_amd64.zip
@@ -34,6 +17,8 @@ sudo mv terraform /usr/local/bin/
 # Verify the installation
 terraform --version
 ```
+
+---
 
 # Basic Terraform Commands
 
