@@ -35,7 +35,7 @@ docker-compose --version
 docker build -t <image_name>
 
 # Build an Image from a Dockerfile without the cache
-docker build -t <image_name> . –no-cache
+docker build -t <image_name> . --no-cache
 
 # List local images
 docker images
