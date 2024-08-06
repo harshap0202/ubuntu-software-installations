@@ -7,6 +7,7 @@ This git repo consists a step by step process for installation of various softwa
  - [Docker](docker.md)
  - [Jenkins](jenkins.md)
  - [Kubernetes](kubernetes.md)
+ - [Shell](shell.md)
  - [SSH Setup](ssh-setup.md)
  - [Terraform](terraform.md)
  - [VirtualBox](virtualbox.md)
